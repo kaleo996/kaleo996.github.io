@@ -1,21 +1,23 @@
-# Lec5 Movement
+# Movement
 
 PS rule 的局限性：
 
 * 不能生成一些表示强调的倒装句，比如：$NP_{2}\ S→NP_2\ NP_1\ Aux\ V$，例句：This problem, I can solve.
-* 不能生成 particle movement。生成 bring in the man 很容易，生成 bring the man in 就很难了
+* 不能生成 particle movement。生成“bring in the man”很容易，生成“bring the man in”就很难了
 * 不能 capture the relatedness of some structures，比如英语中疑问、被动句与陈述句语序的句子应该是有关系的
 
 于是，Chomsky 提出：There is another component - transformation - that co-exists and complements the PS components. 人类的自然语言是唯一存在移位的语言，Baker 说：移位的存在不是出于逻辑上的需要，它深深根植于我们人类语言的性质中
 
-Movement operations target both phrasal and terminal categories. 移位之前的形态称为“基础生成的”
+base-generated 基础生成: certain elements in a sentence are generated or derived directly at the initial stage of sentence formation, before any transformations or movement operations take place
+
+Movement operations target both phrasal and terminal categories.
 
 Phrasal movement:
 
 * Wh-movement: Wh-questions, relativization, topicalization
 * NP-movement: Passivization, raising
 
-## Head movement
+## Head Movement
 
 ### Affix-Hopping
 
@@ -36,11 +38,11 @@ e.g. T-to-V Lowering in the Main Verb of "$[_S[_{NP}Mary][_T -ed][_{VP}solve\ th
 
 > 为什么能确定是 tense 往右与动词结合，而不是 V-to-T Raising 呢？
 >
-> Diagnotics：尝试在主语和动词中间加一个 VP-adverb，"Mary t cleverly [solve -ed] the problem"。如果是动词移位到 tense 处去和它结合的话，VP-adverb 就应该被挤到 [动词 + Tense] 的后面。法语的动词就是 V-to-T Raising 的，动词为了和 tense 结合，会穿过前面的 VP-adverb。
+> Diagnotics：尝试在主语和动词中间加一个 VP-adverb，"Mary t cleverly [solve -ed] the problem"。如果是动词移位到 tense 处去和它结合的话，VP-adverb 就应该留在它在句法树上原来的位置，在一维的句子里被挤到 [动词 + Tense] 的后面。法语的动词就是 V-to-T Raising 的，动词为了和 tense 结合，会穿过前面的 VP-adverb。
 
 allomorph 语素变体：will + ed = would, walk + ed = walked, go + ed = went，屈折语中 tense 和其他语素结合时，语素发生形态变化
 
-Do-Support: 只有 main verb 的疑问句，被 Neg 阻止了 affix hopping 的否定句，在 affix-hopping 的规则下没有成分来承接 tense，就让助动词 do 上去救场，避免 stranded affix
+Do-Support: 被 Neg 阻止了 affix hopping 的否定句，还有疑问句，在 affix-hopping 的规则下没有可以和 tense 结合的成分（动词）来承接 tense，就让助动词 do 上去救场，避免 stranded affix
 
 ### T-to-C Movement
 
@@ -57,7 +59,7 @@ Do-Support: 只有 main verb 的疑问句，被 Neg 阻止了 affix hopping 的�
 2. verb raising：$[_{CP}[+Q][_{TP}John[_T[_Vbe]_i\ Tense][_{VP}[_Vt]_iat\ home]]]$
 3. T-to-C: $[_{CP}[_{+Q/Aux/C}[_Vbe]_i\ Tense][_{TP}John[_Tt]_i[_{VP}[_Vt]_iat\ home]]]$
 
-## Phrasal Movement - NP Movement
+## NP Movement
 
 NP-movement refers to a transformation by which an NP lands at an argument, in particular, subject position.
 
@@ -67,7 +69,7 @@ NP-movement refers to a transformation by which an NP lands at an argument, in p
 
 In the active-passive pair, the semantic relations (argument structure) and the c-selection requirement are the same, but the grammatical functions change. NP-movement in this case is to move the NP object to an empty subject position. This kind of subject is "Object-Subject".
 
-demote/promote 降级/升级：主语变宾语，宾语变主语
+demote/promote 降级/升级：主语变宾语/宾语变主语
 
 ### Raising
 
@@ -84,7 +86,7 @@ Infinitive/Finite clause 不定式/定式：whether the main verb in the clause 
 
 <center>![Wh-Move](wh-move.jpg)</center>
 
-A wh-phrase is moved to a [Spec, C'] to make the sentence interpreted as a special question（特殊疑问句）. The landing site of wh-phrase is the specifier of CP. This is probably the most interesting and important movement.
+A wh-phrase is moved to a specifier in [Spec, C'] to make the sentence interpreted as a special question (特殊疑问句). This is probably the most interesting and important movement.
 
 Wh-move can apply to NP, PP, AP and CP, whereas TP and VP do not undergo wh-movement:
 
@@ -94,17 +96,19 @@ Wh-move can apply to NP, PP, AP and CP, whereas TP and VP do not undergo wh-move
 * How disappointed is Fred t?
 * What does Don believe t?
 
-In echo questions, the wh-phrase returns to where the trace was. In multiple questions, only one wh-phrase is moved, and the others leave unchanged. These are how we know where the wh-phrase move from. wh-phrases move from independently needed structural positions associated with particular grammatical functions.（“独立必要的”是什么意思？它们不受其他成分影响，但构成特殊疑问句一定需要它们，这样理解对吗？）
+In echo questions, the wh-phrase returns to where the trace was. In multiple questions, only one wh-phrase is moved, and the others leave unchanged. These are how we know where the wh-phrase move from. wh-phrases move from independently needed structural positions associated with particular grammatical functions.
+
+Independently needed “独立必要的”：我的理解是，它们不受其他成分影响，是独立的；但构成特殊疑问句一定需要它们，是必要的
 
 * Echo questions: You talked to WHO?!
 * Multiple questions: Which prize did we award to which scientist this year?
 
-题外话，Linguists generally think different layers of phrases have different functions:
-
-* VP: domain of the basic argument structure, the layer of semantics
-* TP: domain of grammatically functional elements
-* CP: discoursal domain. C has the function of clausal typing, whether it is a declarative, interrogative or imperative clause.
-
 Wh-movement can produce unbounded dependency，也就是说 wh-phrase 和 trace 在句法树上的位置可以距离无穷多层成分：I wonder [who Mary believes [(that) Fred knows [(that) I asserted [(that) John saw t]]]]?
 
 C-trace constraint: A filled C is not allowed when adjacent to the trace of a wh-moved subject. e.g. Who did you say [<del>that</del> t likes John]?
+
+一点题外话：Linguists generally think different layers of phrases have different functions:
+
+* VP: domain of the basic argument structure, the layer of semantics
+* TP: domain of grammatically functional elements
+* CP: discoursal domain. C has the function of clausal typing, defining whether it is a declarative, interrogative or imperative clause.

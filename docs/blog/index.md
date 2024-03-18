@@ -1,5 +1,3 @@
 # Blog
 
-Here lies my life and my shower thoughts.
-
-[僕の青春など懲戒だった。](https://www.youtube.com/watch?v=jDos7axCazU)
+Gonna place some milestones along the path of my life, for others and for myself to review in the future.

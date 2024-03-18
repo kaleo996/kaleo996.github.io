@@ -51,13 +51,13 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 nav:
-  - Homepage:
+  - Home:
     - index.md
-    - About Me: homepage/about_me.md
-    - Friends: homepage/friends.md
+    - About Me: home/about_me.md
+    - Friends: home/friends.md
   - EECS:
     - eecs/index.md
-    - ZJU C Correction: eecs/clang/index.md
+    - ZJU C Programming: eecs/clang/index.md
     - ZJU Discrete Math: https://github.com/Kaleo996/ZJU-Discrete-Math-2022
     - Music Processing Analysis:
       - eecs/mpa/index.md
@@ -70,7 +70,7 @@ nav:
         - eecs/gct634/w2-4_classify/index.md
         - 'Ref: DeepMIR Lec3. Timbre & Acoustic Features': eecs/gct634/w2-4_classify/deepmir3.md
       - W5 Music Recommandation & Retrieval: eecs/gct634/w5_recommend.md
-      - W7-10 Automatic Music Transcription: eecs/gct634/w7-10_transcript/index.md
+      - W7-10 Music Transcription: eecs/gct634/w7-10_transcript/index.md
   - Linguistics:
     - ling/index.md
     - Middle Chinese Pronunciation:
@@ -80,16 +80,15 @@ nav:
       - Rime: ling/mid_ch/rime.md
     - Hawaiian Language:
       - ling/hawaii/index.md
-      - 夏威夷文&发音: ling/hawaii/夏威夷文&发音.md
+      - 夏威夷文 & 发音: ling/hawaii/夏威夷文&发音.md
       - 夏威夷语语法: ling/hawaii/夏威夷语语法.md
-    - Syntax:
+    - ZJU Syntax:
       - ling/syntax/index.md
-      - 1 Introduction: ling/syntax/lec1.md
-      - 2 Constituents & Categories: ling/syntax/lec2.md
-      - 3 Phrase-Structure Rules: ling/syntax/lec3.md
-      - 4 X-bar Theory: ling/syntax/lec4.md
-      - 5 Movement: ling/syntax/lec5.md
-      - 6 Binding: ling/syntax/lec6.md
+      - Constituents & Categories: ling/syntax/constituent.md
+      - PS Rules & X' Theory: ling/syntax/x_bar.md
+      - Movement: ling/syntax/move.md
+      - Binding: ling/syntax/bind.md
+      - Universal Grammar: ling/syntax/ug.md
   - Blog:
     - blog/index.md
 
