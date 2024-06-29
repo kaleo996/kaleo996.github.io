@@ -58,7 +58,8 @@ nav:
   - EECS:
     - eecs/index.md
     - ZJU C Programming: eecs/clang/index.md
-    - ZJU Discrete Math: https://github.com/Kaleo996/ZJU-Discrete-Math-2022
+    - ZJU Discrete Math: https://www.yuque.com/linguisty/zju_courses/discrete
+    - ZJU Software Engineering: eecs/se.md
     - Music Processing Analysis:
       - eecs/mpa/index.md
       - 1 Representation: eecs/mpa/1_represent.md
