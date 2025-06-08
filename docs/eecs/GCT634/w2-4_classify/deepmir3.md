@@ -1,5 +1,7 @@
 # DeepMIR-2023 Lec3 Timbre
 
+I think it is necessary to know basic acoustic features before we start learning music classification, so I take this note of a lecture of [DeepMIR by NTU](https://github.com/affige/DeepMIR).
+
 ## 1. General Idea
 
 ![adsr](pic/adsr.webp){align=right}
