@@ -1,6 +1,10 @@
-# Middle Chinese Pronunciation 中古漢語語音
+# Middle Chinese Phonology 中古漢語音系
 
 This is the note of [Middle Chinese Pronunciation Tutorial](https://www.youtube.com/watch?v=djTrdguRzOI&list=PL3D56C369F16E43D0) by Dr. Polyhedron. His this course is about the pronunciation of the middle Chinese language, the ancestor of most of the Sinitic languages today, and the system of Middle Chinese Pinyin used to conveniently annotate the pronunciation of middle Chinese.
+
+Both modern & middle Chinese has the syllable structure showed below, and this is basically how this course is organized.
+
+<center>![漢語音節結構](pic/syllable.png)</center>
 
 ## What is Middle Chinese?
 

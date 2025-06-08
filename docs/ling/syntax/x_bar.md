@@ -4,13 +4,13 @@ PS-rules are the formal devices which generate constituent structure, by specify
 
 ## History of Grammar
 
+> 这些细节属于形式语言与自动机理论，现在只用来解释编程语言了，不学不影响理解 syntax。感兴趣请移步计院毛宇尘老师《计算理论》，绝世好课。
+
 最古老的传统语法分析：Immediate Constituency Analysis 直接成分分析法。类似初等教育中语文课教的，给句子成分分主谓、述宾、述补、偏正……关系
 
-二十世纪中期的 Formal Science 浪潮中，发生了 a cognitive revolution，诞生了 the computational theory of mind (CTM)。New concept of grammar: grammar is taken as a formal device to generate sentences，被 Chomsky 称为 Finite-State Grammar（正则表达式与有限状态机），后来这个概念被 Shannon 采用，进入信息科学
+二十世纪中期的 Formal Science 浪潮中，发生了一场 cognitive revolution，诞生了 the computational theory of mind (CTM)。New concept of grammar: grammar is taken as a formal device to generate sentences，被 Chomsky 称为 Finite-State Grammar，后来这个概念被 Shannon 采用，进入信息科学
 
-然后 Chomsky 说：Human language is not a finite-state language. Finite-State Grammar 在遇到一个 loop 时必然遗忘之前的所有 loop，而人类语言是可以产生 anti-missile missile, anti-(anti-missile missile) missile ... 这样的串的，即 $anti^n missle^{n+1}$，需要在后一个 loop 时记得前一个 loop 循环了几轮。这些细节属于形式语言与自动机理论，不学不影响理解 syntax。
-
-> 此时此刻玉泉那边，我计院的 peers 也在《计算理论》课上听这些吧？
+然后 Chomsky 说：Human language is not a finite-state language. Finite-State Grammar 在遇到一个 loop 时必然遗忘之前的所有 loop，而人类语言是可以产生 anti-missile missile, anti-(anti-missile missile) missile ... 这样的串的，即 $anti^n missle^{n+1}$，需要在后一个 loop 时记得前一个 loop 循环了几轮。
 
 ## Phrase-Structure Rules
 
@@ -29,8 +29,8 @@ $$
 Symbols:
 
 * 每条 rule / derivation 的箭头左边是句法树里的 mother node，右边是 daughter node(s)
-* non-terminal symbols: 类似 S NP VP N V 这种，出现在句法树的 non-terminal nodes 上的符号。P 是 phrase，NP、VP 等就是名词、动词的意思
-* terminal symbols: 类似 Mary runs 这样具体的单词，出现在句法树的 terminal nodes 上
+* non-terminal symbols: 类似 S、NP、VP、N、V 这种，出现在句法树的 non-terminal nodes 上的符号。P 是 phrase，N、V 等就是名词、动词的意思
+* terminal symbols: 类似 Mary、runs 这样具体的单词，出现在句法树的 terminal nodes 上
 * VP → V (NP) (PP) 这样的 rule 中，brankets indicate optional categories，也就是说动词短语一定有动词，但可以没有宾语和介词短语
 
 PS-rules provides 3 kinds of information:
@@ -48,22 +48,24 @@ PP → Prep\ NP\\
 \end{cases}
 $$
 
-> Chomsky Hierarchy：当代 AI 还在 finite-state grammar 上运行。上面的 PS grammar 是一种 Context Free Grammar，比 FS / regular grammar 要复杂一个等级，而人类语言是不是 PS grammar 能描述的还有待商榷，因此目前基于 FS grammar 的人工智能只能很像地模仿人类语言，不可能完全一样
+<!-- > Chomsky Hierarchy：当代 AI 还在 finite-state grammar 上运行。上面的 PS grammar 是一种 Context Free Grammar，比 FS / regular grammar 要复杂一个等级，而人类语言是不是 PS grammar 能描述的还有待商榷，因此目前基于 FS grammar 的人工智能只能很像地模仿人类语言，不可能完全一样 -->
 
 ## X' Theory
 
 评价语法的标准：
 
-* descriptive / explanatory adequacy 描写/解释充分性，可以解释一门语言的句法，和更加普遍的句法
+* descriptive / explanatory adequacy 描写/解释充分性
 * endocentric / exocentric 向/离心结构，也就是 XP 里有没有 X（称为 head）成分
 
-之前学的 PS rules 是描写充分的，但不符合解释充分性的要求。它只能描述英语（language-specific），对每种成分都要编写互相无关联的规则（construction-specific），而且不能解释句法背后的心理机制。解释充分性的句法应满足：
+之前学的 PS rules 是描写充分的，但不符合解释充分性的要求。它只能描述英语（language-specific），对每种成分都要编写互相无关联的规则（construction-specific），而且不能解释句法背后的心理机制。
+
+解释充分性的句法应满足：
 
 * universal
 * maximally constrained
 * psychologically plausible
 
-X' theory (read as "X-bar theory"，中文叫 X 阶标理论) 是解释充分性的语法，所有语言，所有词类都有类似的规则。
+X' theory (read as "X-bar theory"，中文叫 X 阶标理论) 是解释充分性的语法，所有语言、所有词类都有类似的规则。
 
 最基本的句法树：$XP→Spec\ [_{X'}X\ C]$。
 
@@ -75,13 +77,13 @@ X' theory (read as "X-bar theory"，中文叫 X 阶标理论) 是解释充分性
 
 e.g. a book of poems，PP 是 complement；a book with blue cover，PP 是 specifier / modifier。所以判断是 specifier 还是 complement 不能只看这个 constituent 的词类，最终还是得用 constituent test 来验证到哪里算是一个 XP，其中哪些是联系更紧密的 X'，哪些可以丢到 specifier 里
 
-> 其实上面这个例子我上课的时候没明白为什么“of poems”不能省掉。事后想想，可能 a book of poems 里面 book 是量词，表示“一书的诗歌”而不是“一本诗歌的书”。
+<!-- > 其实上面这个例子我上课的时候没明白为什么“of poems”不能省掉。事后想想，可能 a book of poems 里面 book 是量词，表示“一书的诗歌”而不是“一本诗歌的书”。 -->
 
 X' theory 有 endocentricity（向心性），every phrase should have a head；而理论上 PS rule 并没有限制 NP → V AP 这种荒谬的句法不能出现在其中，它是 exocentric 的。C-select 这种词类搭配的规则叫 categorial features，而 XP 的 categorial features 和下面的 X'、X 必须一样，这种现象叫做 the projection of categorial features。因为 projection 的存在，所以有了这些术语：XP is the maximal projection of X, X' is the intermidiate projection of X, X is the minimal projection (head) of X' and XP。
 
 如果一个短语有多个 specifier 或多个 complement，该如何避免使用多分枝？答案是 XP 可以继续分化出 XP，X' 也可以继续分化出 X'，例如：
 
-<center>![two N'-s](2n-bars.jpg)</center>
+<center>![two N'-s](./pic/2n-bars.jpg)</center>
 
 ## Functional Categories: The Structure of the Clause
 
@@ -101,7 +103,7 @@ X' theory 有 endocentricity（向心性），every phrase should have a head；
 * 从句：$CP→Spec\ [_{C'}[_{C[-Q]}for]\ [_{TP}John\ to\ leave]].$
 * 疑问句：$CP→[_{Spec}who][_{C'}[_{C[+Q]}did][_{TP}Mary\ t\ see\ t]]?$
 
-对 non-finite (infinitival) clause 的解释：T 可以取值 -T，表示没有 tense，并且导致 PRO subject，比如 $John\ tried\ [_{S'}[_{TP}[_{NP}PRO_i][_{T'}[_{T}to][_{VP}leave]]]]$。这里的 PRO 用来描述存在 pronoun dropping 现象的句法，表示一个空代词。下标 i 是 co-indexation 标记，表示的是 named entity（终于和 NLP 的知识串起来了！），一个句子中所有下标相同的 constituents 表示的是同一个 co-indexation。
+对 non-finite (infinitival) clause 的解释：T 可以取值 -T，表示没有 tense，并且导致 PRO subject，比如 $John\ tried\ [_{S'}[_{TP}[_{NP}PRO_i][_{T'}[_{T}to][_{VP}leave]]]]$。这里的 PRO 用来描述存在 pronoun dropping 现象的句法，表示一个空代词。下标 i 是 co-indexation 标记，一个句子中所有下标相同的 constituents 表示同一个 named entity。
 
 不定式从句还可以根据 PRO subject 指代的对象分为不同的 control sentence：
 

@@ -39,7 +39,7 @@ There are 3 kinds of rules in syntax:
 
 At the end of this course, we aim to bring together different rules into an overall model of the grammar.
 
-<center>![structure of grammar](gra_struct.png)</center>
+<center>![structure of grammar](./pic/gra_struct.png)</center>
 
 * Inverted Y-Model
 * Lexicon (词库): the mental dictionary containing idiosyncratic information about the words in a language
@@ -99,7 +99,7 @@ e.g.
 * 有 Neg 时，由于一维结构上否定词挡在 tense 和 V 之间，tense 左右两边最近的语素都不能和自己结合，单独的 tense 又难以发音，于是只能凭空产生助动词 do
 * 在 subject-auxiliary inversion 中出现 do-support。T-to-C movement is syntactic, whereas do-support is morphological
 
-<center>![T-to-C Movement & Do-Support](t2c_do.jpg)</center>
+<center>![T-to-C Movement & Do-Support](./pic/t2c_do.jpg)</center>
 
 ## Logical Form
 

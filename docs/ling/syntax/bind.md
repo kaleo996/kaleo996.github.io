@@ -39,7 +39,7 @@ The binding domain for an anaphor is the smallest XP containing the anaphor and 
 
 “John believes himself to be a genius”这个句子中的 himself 是 bind 到 John 上的，因为 John 上面的第一个分支节点是 TP，John c-command 了 himself，而且 himself 处在“Exceptional Case Marking (ECM)”结构中，TP2 里没有一个 finite T，所以 binding domain 可以一直延续到 TP1。而“John believes that himself is a genius”这个句子是错的，因为 himself 在 CP 内，有 finite T，binding domain 到 CP 就结束了。
 
-<center>![Bind Across TP](bind_across_tp.jpg)</center>
+<center>![Bind Across TP](./pic/bind_across_tp.jpg)</center>
 
 Subject is the most prominent nominal element in a category, there are subjects:
 

@@ -9,14 +9,14 @@ Lexical categories (实词):
 * typically contentful
 * (at least) one of the syllables is frequently stressed
 
-the study of lexical categories concentrate on 4 categories of words, divided according to their binary features [N] and [V]
+<!-- the study of lexical categories concentrate on 4 categories of words, divided according to their binary features [N] and [V]
 
 * N. 名词：[+N, -V]
 * V. 动词：[-N, +V]
 * Adj. 形容词：[+N, +V]
 * P. 介词：[-N, -V]
 
-> 英语的介词和汉语的不太一样，是有实际意义的，算作实词
+> 英语的介词和汉语的不太一样，是有实际意义的，算作实词 -->
 
 Functional category (虚词): including determiner (D), demonstrative, Num, mood, tense (T), aspect (Asp.), agreement (Agr.，person + gender + number), complementizer (C) ...
 
@@ -36,10 +36,6 @@ Diagnotics 的意思是用随便什么方法，包括肉眼观察，对随便什
 * phonological criteria: 'increase', 'servey', 'record', which syllable is stressed?
 * semantic criteria: 根据语义来猜一个词是什么词类，虽然很符合直觉但不一定准，比如日语里用来表示形容语义的词类有“形容动词”这种妖孽
 
-??? "Some Cross-Linguistic Comparisons"
-    * 浙大外院前段时间有亚洲语言研讨会，讨论了东亚的量词语言，认为 agreement + case 和 classifer 的用途是互补的，都是给名词分类。这两类语法范畴永远不出现在同一个语言里
-    * 汉语单词间的界限不明显，可能是因为汉语没有很复杂的屈折变化来提示单词界限。因此汉语传统的书写系统是没有空格的
-
 ## Constituent Structure
 
 Tree Diagram terminologies:
@@ -50,10 +46,10 @@ Tree Diagram terminologies:
 * dominance / constituency: if there exists a continuous decending path from a higher node to a lower one, then we say the higher one dominates the lower one, and the lower one is a constituent of the higher one
 * immediate dominance: no other nodes intervenes the higher and lower nodes, e.g. a pair of mother and daughter node
 
-为了方便排版，句法树除了树形图，还可以写成这种一维的：
+为了方便排版，句法树还可以写成下面这种一维的表示；[jsSyntaxTree](https://ironcreek.net/syntaxtree/) 可以通过这种一维的表示画出树形图
 
 $$
-\left[_{S}\left[_{NP1}\left[_{N1}Boris\right]\right]\left[_{VP}\left[_{V}talked\right]\left[_{PP1}\left[_{P1}to\right]\left[_{NP2}\left[_{D}the\right]\left[_{N}reporter\right]\right]\right]\left[_{PP2}\left[_{P2}about\right]\left[_{NP3}\left[_{Pronoun}himself\right]\right]\right]\right]\right]
+[_{S}[_{NP1}[_{N1}Boris]][_{VP}[_{V}talked][_{PP1}[_{P1}to][_{NP2}[_{D}the][_{N}reporter]]][_{PP2}[_{P2}about][_{NP3}[_{Pronoun}himself]]]]]
 $$
 
 It is not good to use ternary or more complex branch in tree diagrams. We will learn advanced mothods (X-bar theory) to avoid ternary branches in the future.

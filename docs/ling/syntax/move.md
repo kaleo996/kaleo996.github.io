@@ -34,7 +34,7 @@ Chomsky's solution: Tense (T) occupies the highest position relative to other pr
 
 e.g. T-to-V Lowering in the Main Verb of "$[_S[_{NP}Mary][_T -ed][_{VP}solve\ the\ problem].]$"
 
-<center>![T-to-V Lowering Tree](t2v_low.jpg)</center>
+<center>![T-to-V Lowering Tree](./pic/t2v_low.jpg)</center>
 
 > 为什么能确定是 tense 往右与动词结合，而不是 V-to-T Raising 呢？
 >
@@ -42,7 +42,7 @@ e.g. T-to-V Lowering in the Main Verb of "$[_S[_{NP}Mary][_T -ed][_{VP}solve\ th
 
 allomorph 语素变体：will + ed = would, walk + ed = walked, go + ed = went，屈折语中 tense 和其他语素结合时，语素发生形态变化
 
-Do-Support: 被 Neg 阻止了 affix hopping 的否定句，还有疑问句，在 affix-hopping 的规则下没有可以和 tense 结合的成分（动词）来承接 tense，就让助动词 do 上去救场，避免 stranded affix
+Do-Support: 被 Neg 阻止了 affix hopping 的否定句，还有疑问句，在 affix-hopping 的规则下没有可以和 tense 结合的成分（动词）来承接 tense，就让助动词 do 上去救场，避免 affix stranding。
 
 ### T-to-C Movement
 
@@ -65,7 +65,7 @@ NP-movement refers to a transformation by which an NP lands at an argument, in p
 
 ### Passive
 
-<center>![active-passive pair](active-passive.jpg)</center>
+<center>![active-passive pair](./pic/active-passive.jpg)</center>
 
 In the active-passive pair, the semantic relations (argument structure) and the c-selection requirement are the same, but the grammatical functions change. NP-movement in this case is to move the NP object to an empty subject position. This kind of subject is "Object-Subject".
 
@@ -84,7 +84,7 @@ Infinitive/Finite clause 不定式/定式：whether the main verb in the clause 
 
 ## Wh-Movement
 
-<center>![Wh-Move](wh-move.jpg)</center>
+<center>![Wh-Move](./pic/wh-move.jpg)</center>
 
 A wh-phrase is moved to a specifier in [Spec, C'] to make the sentence interpreted as a special question (特殊疑问句). This is probably the most interesting and important movement.
 
@@ -107,8 +107,8 @@ Wh-movement can produce unbounded dependency，也就是说 wh-phrase 和 trace 
 
 C-trace constraint: A filled C is not allowed when adjacent to the trace of a wh-moved subject. e.g. Who did you say [<del>that</del> t likes John]?
 
-一点题外话：Linguists generally think different layers of phrases have different functions:
+Linguists generally think different layers of phrases have different functions:
 
 * VP: domain of the basic argument structure, the layer of semantics
 * TP: domain of grammatically functional elements
-* CP: discoursal domain. C has the function of clausal typing, defining whether it is a declarative, interrogative or imperative clause.
+* CP: discoursal domain. C has the function of clausal typing, defining whether it is a declarative, interrogative or imperative clause. That's why we need wh-movement for interrogative sentences.

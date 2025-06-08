@@ -26,15 +26,15 @@
 ||全清|次清|全濁|次濁|
 |-|-|-|-|-|
 |聲母|幫|滂|並|明|
-|中古漢語拼音|b|ph|p|m|
+|中古漢語拼音|p|ph|b|m|
 |代表字發音|pang|phang|bengx|mieng|
-|擬音|/p/|/pʰ/|/b/|/m/|
+|擬音|/ p /|/ pʰ /|/ b /|/ m /|
 
 </center>
 
 並母字在普通話中全部清化，其中平聲字並入滂母，仄聲字并入幫母。
 
-後來的中古漢語的唇音演化出了雙唇音（重唇音）和唇齒音（輕唇音），分別是 /p/、/pʰ/、/b/ 和 /f/、/v/ 這兩組音。在幫、滂、並、明母中各有一部分三等字變爲輕唇音。普通話中是中古漢語拼音為 (p,ph,b) + (i,y) + (a,o,u) 和 m + (i,y) + (a,o) 的字演變爲輕唇音，其餘保留重唇；明母字變輕唇音，先變爲 v 聲母，後來與其他 w 聲母的字混同。
+後來的中古漢語的唇音演化出了雙唇音（重唇音）和唇齒音（輕唇音），分別是 / p /、/ pʰ /、/ b / 和 / f /、/ v / 這兩組音。在幫、滂、並、明母中各有一部分三等字變爲輕唇音。普通話中是中古漢語拼音為 ( p, ph, b ) + ( i, y ) + ( a, o, u ) 和 m + ( i, y ) + ( a, o ) 的字演變爲輕唇音，其餘保留重唇；明母字變輕唇音，先變爲 v 聲母，後來與其他 w 聲母的字混同。
 
 因此，切韻音系中聲母為唇音的字在普通話中的聲母如下：
 
@@ -42,16 +42,16 @@
 
 ||幫|滂|並|明|
 |-|-|-|-|-|
-|重唇|b|p|平p，仄b|m|
+|重唇|b|p|平 p，仄 b|m|
 |輕唇|f|f|f|w|
 
 </center>
 
 ??? 幫組例字
-    * 幫母：波pua、非pyoi、不pyot、半puanh、巴pra、八pret、表pieux、北pok、風piung、反pyanx
-    * 滂母：破phuah、普phox、潘phuan、篇phjen、芳phyang、匹phjit、片phenh、拂phyot、攀phran、扑phuk
-    * 並母：房byang、平bieng、白brak、伐byat、父byox、病biengh、浮biu、盤buan、步boh、薄bak
-    * 明母：無myo、未myoih、文myon、民mjin、莫mak、周myonh、武myox、馬mrax、物myot
+    * 幫母：波 pua、非 pyoi、不 pyot、半 puanh、巴 pra、八 pret、表 pieux、北 pok、風 piung、反 pyanx
+    * 滂母：破 phuah、普 phox、潘 phuan、篇 phjen、芳 phyang、匹 phjit、片 phenh、拂 phyot、攀 phran、扑 phuk
+    * 並母：房 byang、平 bieng、白 brak、伐 byat、父 byox、病 biengh、浮 biu、盤 buan、步 boh、薄 bak
+    * 明母：無 myo、未 myoih、文 myon、民 mjin、莫 mak、周 myonh、武 myox、馬 mrax、物 myot
 
 ## 舌音
 
@@ -63,14 +63,14 @@
 |-|-|-|-|-|-|
 |聲母|端|透|定|泥|來|
 |中古漢語拼音|t|th|d|n|l|
-|擬音|/t/|/tʰ/|/d/|/n/|/l/|
+|擬音|/ t /|/ tʰ /|/ d /|/ n /|/ l /|
 
 ||全清|次清|全濁|次濁|
 |-|-|-|-|-|
 |聲母|知|徹|澄|娘|
 |中古漢語拼音|tr|thr|dr|nr|
-|擬音1|/ȶ/|/ȶʰ/|/ȡ/|/ȵ/|
-|擬音2|/ʈ/|/ʈʰ/|/ɖ/|/ɳ/|
+|擬音1|/ ȶ /|/ ȶʰ /|/ ȡ /|/ ȵ /|
+|擬音2|/ ʈ /|/ ʈʰ /|/ ɖ /|/ ɳ /|
 
 </center>
 
@@ -80,36 +80,36 @@
 
 |聲母|端|透|定|泥|來|
 |-|-|-|-|-|-|
-|普通話拼音|d|t|平t，仄d|n|l|
+|普通話拼音|d|t|平 t，仄 d|n|l|
 
 |聲母|知|徹|澄|娘|
 |-|-|-|-|-|
-|普通話拼音|zh|ch|平ch，仄zh|n|
+|普通話拼音|zh|ch|平 ch，仄 zh|n|
 
 </center>
 
 語音的歷時音變不完全是規則的，例如以下舌音字從中古音變爲普通話：
 
-* 鳥teux→diǎo (niǎo，大概是爲了避諱)
-* 弄lungh→lòng (nòng，可能是唸作「nòng」的語素借用了「弄」的字形)
-* 擇drak→zé (普通話中還有zhái的讀法)
+* 鳥 teux → diǎo (niǎo，大概是爲了避諱)
+* 弄 lungh → lòng (nòng，可能是唸作「nòng」的語素借用了「弄」的字形)
+* 擇 drak → zé (普通話中還有zhái的讀法)
 
 ??? 端組例字
-    * 端母：多ta、德tok、東tung、顛ten、鳥teux、點temx、丁teng、到tauh、短tuanx、帝teh
-    * 透母：天then、土thox、太thad、通thung、討thaux、貪thom、髓thex、塔thap、退thuaih、偷thu
-    * 定母：大dad、道daux、地diih、弟dex、同dung、亭deng、待daix、達dat、毒duuk、圖do
-    * 泥母：能nong、年nen、乃naix、南nom、難nan、内nuaih、怒noh、諾nak、念nemh、納nop
-    * 來母：來lai、立lip、樂lak (lè)、里lix、陵ling、令liengh、六liuk、流liu、力lik
+    * 端母：多 ta、德 tok、東 tung、顛 ten、鳥 teux、點 temx、丁 teng、到 tauh、短 tuanx、帝 teh
+    * 透母：天 then、土 thox、太 thad、通 thung、討 thaux、貪 thom、髓 thex、塔 thap、退 thuaih、偷 thu
+    * 定母：大 dad、道 daux、地 diih、弟 dex、同 dung、亭 deng、待 daix、達 dat、毒 duuk、圖 do
+    * 泥母：能 nong、年 nen、乃 naix、南 nom、難 nan、内 nuaih、怒 noh、諾 nak、念 nemh、納 nop
+    * 來母：來 lai、立 lip、樂 lak (lè)、里 lix、陵 ling、令 liengh、六 liuk、流 liu、力 lik
 
 ??? 知組例字
-    * 知母：知trie、中triung、長triangx (zhǎng)、罩trauh、竹triuk、追tryi、豬trio、智trieh、卓truk、展trienx
-    * 徹母：恥thrix、敕thrik、徹thriet、癡thri、詫thrah、超thrieu、瞠thrang、抽thriu、寵thryungx、暢thriangh
-    * 澄母：長driang (cháng)、宅drak、除drio、陳drin、趙drieux、傳dryen (chuán)、茶dra、重dryungx (zhòng)、直drik、治drih
-    * 娘母：女nriox、娘nriang、黏nriem、紐nriux、腻nriih、淖nrauh、匿nrik、聶nriep、尼nrii、濃nryung
+    * 知母：知 trie、中 triung、長 triangx (zhǎng)、罩 trauh、竹 triuk、追 tryi、豬 trio、智 trieh、卓 truk、展 trienx
+    * 徹母：恥 thrix、敕 thrik、徹 thriet、癡 thri、詫 thrah、超 thrieu、瞠 thrang、抽 thriu、寵 thryungx、暢 thriangh
+    * 澄母：長 driang (cháng)、宅 drak、除 drio、陳 drin、趙 drieux、傳 dryen (chuán)、茶 dra、重 dryungx (zhòng)、直 drik、治 drih
+    * 娘母：女 nriox、娘 nriang、黏 nriem、紐 nriux、腻 nriih、淖 nrauh、匿 nrik、聶 nriep、尼 nrii、濃 nryung
 
 ## 喉牙音
 
-牙音理應很普通，但普通話裏 [ŋ] 音素不出現在音節首，導致疑母字在普通話中大多演變爲零聲母，需要和喉音一起講。
+牙音理應很普通，但普通話裏 [ ŋ ] 音素不出現在音節首，導致疑母字在普通話中大多演變爲零聲母。所以牙音需要和正常的零声母来源喉音一起講。
 
 <center>
 
@@ -117,13 +117,11 @@
 |-|-|-|-|-|
 |聲母|見|溪|群|疑|
 |中古漢語拼音|k|kh|g|ng|
-|擬音|/k/|/kʰ/|/g/|/ŋ/|
+|擬音|/ k /|/ kʰ /|/ g /|/ ŋ /|
 
 </center>
 
-喉音在聲母表中的排佈比較亂。
-
-舊時不區分云母和以母，合稱「喻母」，後來才分化。它們都只能接三等韻，但由於在分化前分別屬於喻母三等、喻母四等字，所以也分別被稱作「喻三」和「喻四」。它們的擬音不太確定，僅作參考。
+喉音在聲母表中的排佈比較亂。舊時不區分云母和以母，合稱「喻母」，後來才分化。它們都只能接三等韻，但由於在分化前分別屬於喻母三等、喻母四等字，所以也分別被稱作「喻三」和「喻四」。它們的擬音不太確定，僅作參考。
 
 曉、匣母的擬音也不太確定，有舌根音和（語音學意義上的）喉音兩種擬法。
 
@@ -133,11 +131,9 @@
 |-|-|-|-|-|
 |聲母|影|曉|匣|云（大陸人注意不是「雲」）-以|
 |中古漢語拼音|q|h|gh|0（不寫出來）- j|
-|擬音|/ʔ/|/x, h/|/ɣ, ɦ/|/ɦi/-/j/|
+|擬音|/ ʔ /|/ x, h /|/ ɣ, ɦ /|/ ɦi / - / j /|
 
 </center>
-
-> 我沒看懂爲什麽云母的擬音寫成這樣，聼 Polyhedron 先生在課程中似乎將云母讀成零聲母。
 
 影、疑、云、以四個聲母在普通話裏大都變成了零聲母，其中少量疑母字聲母還變爲 n，云、以母只演變為 y、w 兩種零聲母。
 
@@ -148,7 +144,7 @@
 
     ||洪音|細音|
     |-|-|-|
-    |開口|開口呼 a o e i (/ɿ/和/ʅ/)|齊齒呼 i (/j/)|
+    |開口|開口呼 a o e i (i 讀作 / ɿ, ʅ /)|齊齒呼 i (/ j /)|
     |合口|合口呼 w|撮口呼 ü|
 
     </center>
@@ -160,23 +156,23 @@
 
 ||見|溪|群|曉|匣|
 |-|-|-|-|-|-|
-|洪|g|k|平k 仄g|h|h|
-|細|j|q|平q 仄j|x|x|
+|洪|g|k|平 k，仄 g|h|h|
+|細|j|q|平 q，仄 j|x|x|
 
 </center>
 
 ??? 見組例字
-    * 見母：公kung、君kyon、今kim、故koh、國kuok、皆krai、關kruan、歸kyoi、見kenh、敢kamx
-    * 溪母：可khax、去khioh、豈khioix、客khrak、氣khioih、孔khungx、起khix、口khux、空khung、虧khye
-    * 群母：其gi、及gip、狂gyang、巨giox、求giu、歧gje、窮giung、共gyungh、強giang、跪gyex
-    * 曉母：呼ho、漢hanh、海haix、兄hyeng、曉heux、鄉hiang、黑hok、歡huan、希hioi、荒huang
-    * 匣母：下ghrax、乎gho、何gha、後ghux、行ghrang (xíng)、兮ghe、學ghruk、寒ghan、或ghuok、候ghuh
+    * 見母：公 kung、君 kyon、今 kim、故 koh、國 kuok、皆 krai、關 kruan、歸 kyoi、見 kenh、敢 kamx
+    * 溪母：可 khax、去 khioh、豈 khioix、客 khrak、氣 khioih、孔 khungx、起 khix、口 khux、空 khung、虧 khye
+    * 群母：其 gi、及 gip、狂 gyang、巨 giox、求 giu、歧 gje、窮 giung、共 gyungh、強 giang、跪 gyex
+    * 曉母：呼 ho、漢 hanh、海 haix、兄 hyeng、曉 heux、鄉 hiang、黑 hok、歡 huan、希 hioi、荒 huang
+    * 匣母：下 ghrax、乎 gho、何 gha、後 ghux、行 ghrang (xíng)、兮 ghe、學 ghruk、寒 ghan、或 ghuok、候 ghuh
 
 ??? 形成普通话零聲母的四聲母例字
-    * 影母：於qio、一qjit、安qan、意qih、衣qioi、恩qon、燕qen (yān)、愛qaih、彎qruan、委qyex
-    * 疑母：吾ngo、言ngian、我ngax、五ngox、義ngieh、牛ngiu、月ngyat、外nguad、玉ngyuk、凝nging
-    * 云母（喻三）：爲ye (wéi)、有iux、曰yat、王yang、矣ix、謂yoih、又iuh、云yon、于yo、遠yanx
-    * 以母（喻四）：以jix、也jax、亦jek、用jyungh、欲jyuk、余jo、陽jang、夜jah、遊ju、與jox (yǔ)
+    * 影母：於 qio、一 qjit、安 qan、意 qih、衣 qioi、恩 qon、燕 qen (yān)、愛 qaih、彎 qruan、委 qyex
+    * 疑母：吾 ngo、言 ngian、我 ngax、五 ngox、義 ngieh、牛 ngiu、月 ngyat、外 nguad、玉 ngyuk、凝 nging
+    * 云母（喻三）：爲 ye (wéi)、有 iux、曰 yat、王 yang、矣 ix、謂 yoih、又 iuh、云 yon、于 yo、遠 yanx
+    * 以母（喻四）：以 jix、也 jax、亦 jek、用 jyungh、欲 jyuk、余 jo、陽 jang、夜 jah、遊 ju、與 jox (yǔ)
 
 ## 齒音
 
@@ -186,14 +182,14 @@
 
 ||全清|次清|全濁|全清|全濁|
 |-|-|-|-|-|-|
-|齒頭音|精 c /ts/|清 ch /tsʰ/|從 z /dz/|心 s /s/|邪 zs /z/|
+|齒頭音|精 c / ts /|清 ch / tsʰ /|從 z / dz /|心 s / s /|邪 zs / z /|
 |正齒音|照|穿|床|審|禪|
-|莊組|莊 cr /tʂ, tʃ/|初 chr /tʂʰ, tʃʰ/|崇 zr /dʐ, dʒ/|生 sr /ʂ, ʃ/|俟 zsr /ʐ, ʒ/|
-|章組|章 cj /tɕ/|昌 chj /tɕ/|船 zsj /dʑ, ʑ/|書 sj /ɕ/|常 zj /ʑ, dʑ/|
+|莊組|莊 cr / tʂ, tʃ /|初 chr / tʂʰ, tʃʰ /|崇 zr / dʐ, dʒ /|生 sr / ʂ, ʃ /|俟 zsr / ʐ, ʒ /|
+|章組|章 cj / tɕ /|昌 chj / tɕʰ /|船 zsj / dʑ, ʑ /|書 sj / ɕ /|常 zj / ʑ, dʑ /|
 
 ||次濁|
 |-|-|
-|半齒音|日 nj /ȵʑ, ȵ/|
+|半齒音|日 nj / ȵʑ, ȵ /|
 
 </center>
 
@@ -203,13 +199,13 @@
 
 ||精|清|從|心|邪|
 |-|-|-|-|-|-|
-|洪|z|c|平c 仄z|s|s, c|
-|細|j|q|平q 仄j|x|x, q|
+|洪|z|c|平 c，仄 z|s|s, c|
+|細|j|q|平 q，仄 j|x|x, q|
 
 ||全清|次清|全濁|全清|全濁|
 |-|-|-|-|-|-|
-|莊組|莊：zh、z|初：ch、c|崇：平ch、c，仄zh、sh|生：sh、s|俟：平ch，仄s|
-|章組|章：zh|昌：ch|常：平ch、sh，仄sh|書：sh|船：平ch、sh，仄sh|
+|莊組|莊：zh、z|初：ch、c|崇：平 ch、c，仄 zh、sh|生：sh、s|俟：平 ch，仄 s|
+|章組|章：zh|昌：ch|常：平 ch、sh，仄 sh|書：sh|船：平 ch、sh，仄 sh|
 
 </center>
 
@@ -232,31 +228,31 @@
 
 ||團音|尖音|
 |-|-|-|
-|希hioi-西se|希特勒Hitler 海因里希Heinrich|馬來西亞Malaysia 巴西Brazil|
-|基ki-齊ze|巴基斯坦Pakistan 維基百科Wikipedia|薩科齊Sarkozy 馬特拉齊Materazzi|
+|希 hioi - 西 se|希特勒 Hitler、海因里希 Heinrich|馬來西亞 Malaysia、巴西 Brazil|
+|基 ki - 齊 ze|巴基斯坦 Pakistan、維基百科 Wikipedia|薩科齊 Sarkozy、馬特拉齊 Materazzi|
 
 </center>
 
 ??? 精組例字
-    * 精母：子cix、精cieng、將ciang (jiāng)、則cok、哉cai、足cyuk、祖cox、早caux、焦cieu、俊cynh
-    * 清母：此chiex、且chiax、清chieng、千chen、寸chuonh、蒼chang、餐chan、切chet、請chiengx、采chaix
-    * 從母：自ziih、秦zin、在zaix、從zyung、齊ze、前zen、絕zyet、罪zuaix、就ziuh、情zieng
-    * 心母：三sam、心sim、相siang (xiāng)、死siix、先sen、四siih、小sieux、孫suon、星seng、昔siek
-    * 邪母：遂zsyih、辭zsi、邪zsia、囚zsiu、隨zsye、象zsiangx、旋zsyen、羡zsienh、似zsix、俗zsyuk
+    * 精母：子 cix、精 cieng、將 ciang (jiāng)、則 cok、哉 cai、足 cyuk、祖 cox、早 caux、焦 cieu、俊 cynh
+    * 清母：此 chiex、且 chiax、清 chieng、千 chen、寸 chuonh、蒼 chang、餐 chan、切 chet、請 chiengx、采 chaix
+    * 從母：自 ziih、秦 zin、在 zaix、從 zyung、齊 ze、前 zen、絕 zyet、罪 zuaix、就 ziuh、情 zieng
+    * 心母：三 sam、心 sim、相 siang (xiāng)、死 siix、先 sen、四 siih、小 sieux、孫 suon、星 seng、昔 siek
+    * 邪母：遂 zsyih、辭 zsi、邪 zsia、囚 zsiu、隨 zsye、象 zsiangx、旋 zsyen、羡 zsienh、似 zsix、俗 zsyuk
 
 ??? 莊組例字
-    * 莊母：臻crin、責crek、莊criang、爭creng、債creh、鄒criu、阻criox、爪craux (zhǎo)、皺criuh、捉cruk
-    * 初母：楚chriox、窗chrung、策chrek、叉chra、鏟chrenx、厠chrih、篡chruanh、插chrep、揣chryex (chuǎi)、測chrik
-    * 崇母：事zrih、巢zrau、柴zre、床zriang、岑zrim、士zrix、撰zryenx、棧zranh、助zrioh、煠zrep (zhá)
-    * 生母（山母）：師srii、數sryoh (shù)、史srix、殺sret、色srik、所sriox、省sriengx (shěng)、帥sryih、生srieng、縮sriuk
-    * 俟母：俟zsrix、漦zsri
+    * 莊母：臻 crin、責 crek、莊 criang、爭 creng、債 creh、鄒 criu、阻 criox、爪 craux (zhǎo)、皺 criuh、捉 cruk
+    * 初母：楚 chriox、窗 chrung、策 chrek、叉 chra、鏟 chrenx、厠 chrih、篡 chruanh、插 chrep、揣 chryex (chuǎi)、測 chrik
+    * 崇母：事 zrih、巢 zrau、柴 zre、床 zriang、岑 zrim、士 zrix、撰 zryenx、棧 zranh、助 zrioh、煠 zrep (zhá)
+    * 生母（山母）：師 srii、數 sryoh (shù)、史 srix、殺 sret、色 srik、所 sriox、省 sriengx (shěng)、帥 sryih、生 srieng、縮 sriuk
+    * 俟母：俟 zsrix、漦 zsri
 
 ??? 章組例字
-    * 章母：之cji、者cjax、至cjiih、諸cjo、志cjih、主cjyox、終cjung、衆cjungh、周cju、戰cjenh、正cjengh、質cjit
-    * 昌母：出chjyt、處chjox (chǔ)、春chjyn、車chja、川chjyen、昌chjang、尺chjek、齒chjix、臭chjuh、唱chjangh
-    * 船母：食zsjik、實zsjit、神zsjin、術zsjyt、唇zsjyn、船zsjyen、蛇zsja、順zsjynh、射zsjah (shè)、舐zsjex
-    * 書母：世sjed、書sjo、水sjyix、身sjin、少sjeux、聲sjeng、守sjux、說sjyet、腾sjingh、叔sjuk
-    * 常母（禅母）：是zjex、臣zjin、時zji、十zjip、嘗zjang、善zjenx、石zjek、尚zjangh、視zjih、誰zjyi
+    * 章母：之 cji、者 cjax、至 cjiih、諸 cjo、志 cjih、主 cjyox、終 cjung、衆 cjungh、周 cju、戰 cjenh、正 cjengh、質 cjit
+    * 昌母：出 chjyt、處 chjox (chǔ)、春 chjyn、車 chja、川 chjyen、昌 chjang、尺 chjek、齒 chjix、臭 chjuh、唱 chjangh
+    * 船母：食 zsjik、實 zsjit、神 zsjin、術 zsjyt、唇 zsjyn、船 zsjyen、蛇 zsja、順 zsjynh、射 zsjah (shè)、舐 zsjex
+    * 書母：世 sjed、書 sjo、水 sjyix、身 sjin、少 sjeux、聲 sjeng、守 sjux、說 sjyet、腾 sjingh、叔 sjuk
+    * 常母（禅母）：是 zjex、臣 zjin、時 zji、十 zjip、嘗 zjang、善 zjenx、石 zjek、尚 zjangh、視 zjih、誰 zjyi
 
 ??? 日母例字
-    而nji、人njin、然njen、如njo、日njit、二njiih、若njak、汝njox、入njip、爾njex
+    而 nji、人 njin、然 njen、如 njo、日 njit、二 njiih、若 njak、汝 njox、入 njip、爾 njex
