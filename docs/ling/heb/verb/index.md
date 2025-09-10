@@ -2,7 +2,7 @@
 
 Grammatical categories of verbs in Biblical Hebrew:
 
-* [Aspect](https://en.wikipedia.org/wiki/Grammatical_aspect): Perfective, Imperfective
+* [Aspect](https://en.wikipedia.org/wiki/Grammatical_aspect): Perfect (Suffixed Conjugation), Imperfect (Prefixed Conjugation)
 * [Mood](https://en.wikipedia.org/wiki/Grammatical_mood): Indicative, Cohortative, Imperative, Jussive
 * [Voice](https://en.wikipedia.org/wiki/Voice_(grammar)): Active, Passive, Reflexive
 * And they need to agree with their subjects in **gender, number & person**
@@ -17,7 +17,7 @@ The names of the derived stems are irregularly formed from the root, פעל, int
 
 ||Simple|Intensive|Causative|
 |:-:|:-:|:-:|:-:|
-|Active|Pa'al (פָּּּעַל) / Qal (קַל)|Piel (פִּעֵל)|Hiphil (הִפְעִיל)|
+|Active|Pa'al (פָּּּעַל) / Qal (קַל, means "light")|Piel (פִּעֵל)|Hiphil (הִפְעִיל)|
 |Passive|Niphal (נִפְעַל)|Pual (פֻּעַל)|Hophal (הָפְעַל, mind the kamatz katan)|
 |Reflexive|Hitpael (הִתְפַּעֵל) {: colspan=3}|&#8288 {:style="padding:0"}|&#8288 {:style="padding:0"}|
 
@@ -25,24 +25,20 @@ Let the strong root be 1-2-3 and take קטל as an example, the 7 regular derive
 
 ||Simple|Intensive|Causative|
 |:-:|:-:|:-:|:-:|
-|Active|1a2a3 (קָטַל, kill)|1i22e3 (קִטֵּל, slay)|hi12i3 (הִקְטִיל, ask sb. to kill)|
-|Passive|ni12a3 (נִקְטַל, be killed)|1u22a3 (קֻטַּל, be slayed)|ho12a3 (הָקְטַל, have sb. killed)|
-|Reflexive|hit1a22e3 (הִתְקַטֵּל, suicide) {:colspan=3}|&#8288 {:style="padding:0"}|&#8288 {:style="padding:0"}|
+|Active|1a2a3 (קָטַל, qatal, kill)|1i22e3 (קִטֵּל, qittel, slay)|hi12i3 (הִקְטִיל, hiqtil, ask sb. to kill)|
+|Passive|ni12a3 (נִקְטַל, niqtal, be killed)|1u22a3 (קֻטַּל, quttal, be slayed)|ho12a3 (הָקְטַל, hoqtal, have sb. killed)|
+|Reflexive|hit1a22e3 (הִתְקַטֵּל, hitqattel, suicide) {:colspan=3}|&#8288 {:style="padding:0"}|&#8288 {:style="padding:0"}|
 
 Then the derived stems are either:
 
 * conjugated to show the aspect, mood, voice and agree with their subjects in gender, number & person
 * or used as a infinitive that does not show these grammatical categories
 
-## Conjugations of Derived Stems
+## Qal Perfect Paradigm
 
-Here we are diving into how each derived stem of strong verbs conjugate to express its gender, number & person. The 3MS form is the base form of a derived stem, and it can change into other genders, numbers & persons by changing the vowel a bit and adding some endings.
-
-### Qal Perfect Indicative
+Here we are diving into how the easiest and the most commonly used Qal derived stem of strong verbs in perfect aspect conjugate to express its gender, number & person. The 3MS form is the base form of a derived stem, and it can change into other genders, numbers & persons by changing the vowel a bit and adding some endings.
 
 The conjugation of Qal perfect in indicative mood is as follows.
-
-TODO: 重尾，会导致重音偏移，造成 propretonic reduction
 
 ||Singular||Plural|
 |-|-|-|-|
@@ -51,3 +47,10 @@ TODO: 重尾，会导致重音偏移，造成 propretonic reduction
 |2FS|שְׁמַרְתְּ, you (f.) guarded|2FP|שְׁמַרְתֶּן, you (f.) guarded|
 |3MS|שָׁמַר, he guarded|3CP {:rowspan=2}|שָֽׁמְרוּ, they guarded {:rowspan=2}|
 |3FS|שָֽׁמְרָה, she guarded|&#8288 {:style="padding:0"}|&#8288 {:style="padding:0"}|
+
+Special Cases:
+
+* In verbs that end in a ת, when a תּ type ending is added, the two ת’s combine into a single dagesh doubled תּ.
+    * e.g. כָּרַת (to cut or make a covenant) - כָּרַתִּי ,כָּרַתָּ，כּרַתְּ ,כְּרַתֶּם ,כְּרַתֶּן
+* The same thing happens with a נ final verb when the 1CP נוּ suffix is added. The two nuns collapse into a single dagesh doubled נ
+    * e.g. שָׁכַנּוּ, we dwell

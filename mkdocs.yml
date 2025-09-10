@@ -11,21 +11,21 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.path
-    - navigation.expand
+    # - navigation.expand
     - navigation.indexes
     - navigation.instant
 
 extra:
   social: # show GitHub, Twitter & Email at footage
     - icon: fontawesome/brands/github
-      link: https://github.com/Kaleo996
+      link: https://github.com/kaleo996
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/kaleo996
     - icon: fontawesome/solid/envelope
       link: mailto:yihangchen2003@gmail.com
-  analytics:
-    provider: google
-    property: G-5D9MVMM08N
+  # analytics:
+  #   provider: google
+  #   property: G-5D9MVMM08N
 
 markdown_extensions:
   - attr_list
@@ -51,14 +51,14 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 nav:
-  - Home:
+  - 🏠Home:
     - index.md
     - About Me: home/about_me.md
     - Friends: home/friends.md
-  - EECS:
+  - 💻EECS:
     - eecs/index.md
-    - ZJU C Programming: eecs/clang/index.md
-    - ZJU Discrete Math: https://www.yuque.com/linguisty/zju_courses/discrete
+    # - ZJU C Programming: eecs/clang/index.md
+    - ZJU Discrete Math: https://mem.ac/course/dm/
     - ZJU Software Engineering: eecs/se.md
     - Music Processing Analysis:
       - eecs/mpa/index.md
@@ -67,22 +67,25 @@ nav:
       - 5 Music Structure: eecs/mpa/5_struct.md
     - 'GCT634: Musical Applications of Machine Learning':
       - eecs/gct634/index.md
-      - W2-4 Music Classification:
-        - eecs/gct634/w2-4_classify/index.md
-        - 'Ref: DeepMIR Lec3. Timbre & Acoustic Features': eecs/gct634/w2-4_classify/deepmir3.md
+      - Timbre & Acoustic Features: eecs/gct634/w2-4_classify/deepmir3.md
+      - W2-4 Music Classification: eecs/gct634/w2-4_classify/index.md
       - W5 Music Recommandation & Retrieval: eecs/gct634/w5_recommend.md
       - W7-10 Music Transcription: eecs/gct634/w7-10_transcript/index.md
-  - Linguistics:
+  - 💬Ling:
     - ling/index.md
-    - Middle Chinese Pronunciation:
-      - ling/mid_ch/index.md
-      - Onset: ling/mid_ch/onset.md
-      - Tone & Coda: ling/mid_ch/tone_coda.md
-      - Rime: ling/mid_ch/rime.md
-    - Hawaiian Language:
-      - ling/hawaii/index.md
-      - 夏威夷文 & 发音: ling/hawaii/夏威夷文&发音.md
-      - 夏威夷语语法: ling/hawaii/夏威夷语语法.md
+    - Biblical Hebrew:
+      - ling/heb/index.md
+      - Noun:
+        - ling/heb/noun/index.md
+        - Prep. & Clitics: ling/heb/noun/prep.md
+        # - Pronoun:
+        # - Numeral:
+      - Verb:
+        - ling/heb/verb/index.md
+        - Stative Verb: ling/heb/verb/stat_verb.md
+      - Syntax:
+        - ling/heb/syntax/index.md
+    - ZJU Semantics: https://ruoxining.github.io/notebook/Ling/Semantics/
     - ZJU Syntax:
       - ling/syntax/index.md
       - Constituents & Categories: ling/syntax/constituent.md
@@ -90,6 +93,18 @@ nav:
       - Movement: ling/syntax/move.md
       - Binding: ling/syntax/bind.md
       - Universal Grammar: ling/syntax/ug.md
-  - Blog:
+    - ZJU Morphology:
+      - ling/morph/index.md
+      - Overview: ling/morph/overview.md
+    - Middle Chinese Phonology:
+      - ling/mid_ch/index.md
+      - Onset: ling/mid_ch/onset.md
+      - Tone & Coda: ling/mid_ch/tone_coda.md
+      - Rime: ling/mid_ch/rime.md
+    - Hawaiian:
+      - ling/hawaii/index.md
+      - Pronunciation: ling/hawaii/夏威夷文&发音.md
+      - Grammar: ling/hawaii/夏威夷语语法.md
+  - ⭐Blog:
     - blog/index.md
 
