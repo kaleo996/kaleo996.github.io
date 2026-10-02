@@ -62,6 +62,8 @@
   
     
     
+      
+    
     
     
     
@@ -116,9 +118,75 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
     
     
   </nav>
@@ -1317,7 +1385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://ruoxining.github.io/notebook/Ling/Semantics/" class="md-nav__link">
+      <a href="https://ruoxining.github.io/notebook/docs/2-ling/semantics/" class="md-nav__link">
         
   
   
@@ -2506,8 +2574,9 @@
 <p>可以这么记：<code>||</code> 长得更高，优先级却反而比 <code>&amp;&amp;</code> 低。但是记不住这个优先级是很正常的，写代码的人最好考虑到读代码的人的感受，更好的解答是：<code>((year%4==0) &amp;&amp; (year%100!=0)) || (year%400==0)</code></p>
 <p>4. 在C程序运行过程中，其值不能被改变的量称为常量，其值可以改变的量称为变量。（✔️）</p>
 <p>有些同学学到后来会把“标识符”和“变量”搞混，以为标识符就是变量名。标识符是用户编程时使用的名字，用于给变量、常量、函数等命名，以建立起名称与实体之间的关系。</p>
-<center>![标识符和变量](var.png)</center>
-
+<center>
+<p><img alt="标识符和变量" src="var.png" /></p>
+</center>
 <p>5. 为了检查以下 if-else 语句的两个分支是否正确，至少需要设计 3 组测试用例。（✔️）</p>
 <div class="highlight"><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">15</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span>
 <span class="w">   </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
@@ -3087,7 +3156,7 @@ Thanks.
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">-1</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>![KTAC<code>TPDCCL]F(O__)(6[(M.png](https://cdn.nlark.com/yuque/0/2022/png/25775350/1649210866339-4f689392-3fe7-4b45-990e-552b0bfb97b4.png#clientId=ub1b0debf-f6a3-4&amp;errorMessage=unknown%20error&amp;from=paste&amp;height=180&amp;id=u2c76073f&amp;originHeight=302&amp;originWidth=420&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=42351&amp;status=error&amp;style=none&amp;taskId=ua9c674b1-f0bb-4382-acc5-f6739881a78&amp;title=&amp;width=250)这题里没用到野指针，也没有数组下标越界。后来发现是因为第4行用</code>a[i]!=0`判断是否结束循环，导致在测试样例的有序表中出现0时提前退出循环。而五个输入样例中都没出现0，所以我按照五个输入样例去试就发现不了错在哪。<img alt="“淆习”是河北话里的“学习”" src="https://cdn.nlark.com/yuque/0/2022/png/25775350/1649333564715-bedfcee7-c485-490a-8d67-2e2f4d0f66fb.png#clientId=u22296693-de05-4&amp;errorMessage=unknown%20error&amp;from=paste&amp;height=559&amp;id=uf814075f&amp;originHeight=956&amp;originWidth=766&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=true&amp;size=131179&amp;status=error&amp;style=none&amp;taskId=u6450dea5-b99d-40b8-b230-9081b087095&amp;title=%E2%80%9C%E6%B7%86%E4%B9%A0%E2%80%9D%E6%98%AF%E6%B2%B3%E5%8C%97%E8%AF%9D%E9%87%8C%E7%9A%84%E2%80%9C%E5%AD%A6%E4%B9%A0%E2%80%9D&amp;width=448" title="“淆习”是河北话里的“学习”" /></p>
+<p><img alt="Binary search debugging screenshot" src="https://cdn.nlark.com/yuque/0/2022/png/25775350/1649210866339-4f689392-3fe7-4b45-990e-552b0bfb97b4.png#clientId=ub1b0debf-f6a3-4&amp;errorMessage=unknown%20error&amp;from=paste&amp;height=180&amp;id=u2c76073f&amp;originHeight=302&amp;originWidth=420&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=false&amp;size=42351&amp;status=error&amp;style=none&amp;taskId=ua9c674b1-f0bb-4382-acc5-f6739881a78&amp;title=&amp;width=250" />这题里没用到野指针，也没有数组下标越界。后来发现是因为第4行用<code>a[i]!=0</code>判断是否结束循环，导致在测试样例的有序表中出现0时提前退出循环。而五个输入样例中都没出现0，所以我按照五个输入样例去试就发现不了错在哪。<img alt="“淆习”是河北话里的“学习”" src="https://cdn.nlark.com/yuque/0/2022/png/25775350/1649333564715-bedfcee7-c485-490a-8d67-2e2f4d0f66fb.png#clientId=u22296693-de05-4&amp;errorMessage=unknown%20error&amp;from=paste&amp;height=559&amp;id=uf814075f&amp;originHeight=956&amp;originWidth=766&amp;originalType=binary&amp;ratio=1&amp;rotation=0&amp;showTitle=true&amp;size=131179&amp;status=error&amp;style=none&amp;taskId=u6450dea5-b99d-40b8-b230-9081b087095&amp;title=%E2%80%9C%E6%B7%86%E4%B9%A0%E2%80%9D%E6%98%AF%E6%B2%B3%E5%8C%97%E8%AF%9D%E9%87%8C%E7%9A%84%E2%80%9C%E5%AD%A6%E4%B9%A0%E2%80%9D&amp;width=448" title="“淆习”是河北话里的“学习”" /></p>
 <p>其实这题课本上有得抄的！我感觉初学者能完整抄下来就能复习许多了。</p>
 <div class="highlight"><span class="filename">正确解答</span><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="nf">insert</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="w"> </span><span class="p">],</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">value</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>

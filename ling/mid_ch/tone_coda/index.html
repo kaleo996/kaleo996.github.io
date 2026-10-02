@@ -66,6 +66,8 @@
   
     
     
+      
+    
     
     
     
@@ -120,9 +122,75 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
     
     
   </nav>
@@ -1328,7 +1396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://ruoxining.github.io/notebook/Ling/Semantics/" class="md-nav__link">
+      <a href="https://ruoxining.github.io/notebook/docs/2-ling/semantics/" class="md-nav__link">
         
   
   
@@ -2398,34 +2466,99 @@
 <p>中古漢語是有聲調語言，分爲四種調類，其名字與中古漢語拼音標記是：平（無）、上（-x）、去（-h, -d）、入（-p, -t, -k）。由於漢語中聲調調值變化繁複且不規則，中古漢語中每個字具體的調值已經無法考證了，但每個字屬於哪個調類是可以確定的。</p>
 <p>聲母清濁和四聲兩兩組合，一共有如下的十六種搭配，在漢語演化過程中同一種搭配的字在後世的聲調一般也屬於同一類。</p>
 <center>
-
-||全清|次清|全濁|次濁|
-|-|-|-|-|-|
-|平|東 tung|通 thung|同 dung|籠 lung|
-|上|董 tungx|桶 thungx|動 dungx|攏 lungx|
-|去|凍 tungh|痛 thungh|洞 dungh|弄 lungh|
-|入|督、篤 tuuk|禿 thuk|讀 duk|鹿 luk|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>次清</th>
+<th>全濁</th>
+<th>次濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平</td>
+<td>東 tung</td>
+<td>通 thung</td>
+<td>同 dung</td>
+<td>籠 lung</td>
+</tr>
+<tr>
+<td>上</td>
+<td>董 tungx</td>
+<td>桶 thungx</td>
+<td>動 dungx</td>
+<td>攏 lungx</td>
+</tr>
+<tr>
+<td>去</td>
+<td>凍 tungh</td>
+<td>痛 thungh</td>
+<td>洞 dungh</td>
+<td>弄 lungh</td>
+</tr>
+<tr>
+<td>入</td>
+<td>督、篤 tuuk</td>
+<td>禿 thuk</td>
+<td>讀 duk</td>
+<td>鹿 luk</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>普通話的陰平、陽平分別來自中古漢語平聲字中聲母為清音、濁音的字。中古漢語全濁的上聲字在普通話中變去聲，其餘的上、去聲不變。中古漢語入聲調的全濁聲母字變陽平，次濁聲母字變去聲，清聲母字聲調隨機變化。另外，由於普通話失去了全濁聲母，平聲的全濁聲母字變送氣清音，仄聲的全濁聲母字變不送氣清音。</p>
 <p>粵語廣州話有九個聲調，也來自中古漢語。平上去入各分陰陽，依據依然是聲母在中古漢語中的清濁。全濁上有文白異讀現象，白讀為陽上送氣，文讀為陽去不送氣。陰入按照韻母長、短，還要分爲上、下陰入。</p>
 <h2 id="_2">韻尾</h2>
 <p>中古漢語中的韻尾種類與其中古漢語拼音如下圖：</p>
-<center>![中古韻尾](pic/coda.png)</center>
-
+<center>
+<p><img alt="中古韻尾" src="../pic/coda.png" /></p>
+</center>
 <p>韻尾要單獨拿出來和聲調一起講，是因爲它們的搭配是有限制的：</p>
 <center>
-
-||一般陰聲韻|陽聲韻|“次入韻”|入聲韻|
-|-|-|-|-|-|
-|平|+|+|-|-|
-|上|+|+|-|-|
-|去|+|+|+|-|
-|入|-|-|-|+|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>一般陰聲韻</th>
+<th>陽聲韻</th>
+<th>“次入韻”</th>
+<th>入聲韻</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>上</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>去</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+</tr>
+<tr>
+<td>入</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>+</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>一般認爲中古漢語的入聲韻尾和現代的閩語、粵語、客家話一樣，無可聼除阻。</p>
 <p>一些多音節詞音節坍塌產生的新語素有 -p 尾，如：</p>
 <ul>
@@ -2444,40 +2577,122 @@
 <p>粵語廣州話除了部分 -m -p 韻尾字變成 -n -t 韻尾字之外，完全繼承了中古漢語韻尾。越南語比粵語保存得更好，只有 -ng 和 -k 在文字上區分成了 -ng -nh 和 -c -ch，發音根本沒有變化。朝鮮語中除了 -t 韻尾變成 -l 以外沒有變化。</p>
 <p>日語中韻尾的變化格外複雜。</p>
 <center>
-
-|中古漢語輔音韻尾|日語韻尾|
-|-|-|
-|陰聲韻|-、い -i、う -u|
-|-m|ん -n|
-|-n|ん -n|
-|-ng|い -i、う -u|
-|-p|ふ -pu > う -u、っ|
-|-t|つ -tu、ち -ti、っ|
-|-k|く -ku、き -ki、っ|
-
+<table>
+<thead>
+<tr>
+<th>中古漢語輔音韻尾</th>
+<th>日語韻尾</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>陰聲韻</td>
+<td>-、い -i、う -u</td>
+</tr>
+<tr>
+<td>-m</td>
+<td>ん -n</td>
+</tr>
+<tr>
+<td>-n</td>
+<td>ん -n</td>
+</tr>
+<tr>
+<td>-ng</td>
+<td>い -i、う -u</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>ふ -pu &gt; う -u、っ</td>
+</tr>
+<tr>
+<td>-t</td>
+<td>つ -tu、ち -ti、っ</td>
+</tr>
+<tr>
+<td>-k</td>
+<td>く -ku、き -ki、っ</td>
+</tr>
+</tbody>
+</table>
 </center>
 <center>
-
-|う尾的變化|例字|發音演化|
-|-|-|-|
-|あう > おう|康 khang|かう > こう|
-|やう > よう|將 ciang|しゃう > しょう|
-|えう > よう|鳥 teux|てう > ちょう|
-|いう > ゆう|柔 nju|じう > じゅう|
-
+<table>
+<thead>
+<tr>
+<th>う尾的變化</th>
+<th>例字</th>
+<th>發音演化</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>あう &gt; おう</td>
+<td>康 khang</td>
+<td>かう &gt; こう</td>
+</tr>
+<tr>
+<td>やう &gt; よう</td>
+<td>將 ciang</td>
+<td>しゃう &gt; しょう</td>
+</tr>
+<tr>
+<td>えう &gt; よう</td>
+<td>鳥 teux</td>
+<td>てう &gt; ちょう</td>
+</tr>
+<tr>
+<td>いう &gt; ゆう</td>
+<td>柔 nju</td>
+<td>じう &gt; じゅう</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>-p 韻尾在日語中的變化尤其複雜，不僅經歷了ハ行轉呼，而且有因爲固定爲多音節詞而保留了古代發音的例外：</p>
 <center>
-
-|例字|中古漢語拼音|日語音讀演化|例外|
-|-|-|-|-|
-|甲|krap|かふ kapu > kau > kou こう||
-|法|pyap|はふ papu > hau > hou ほう||
-|十|zjip|じふ zipu > jiu > juu じゅう|「十分（じっぷん）」不變|
-|蝶|dep|てふ tepu > teu > tyou ちょう||
-|雜|zap|ざふ zapu > zau > zou ぞう|「雜志（ざっし）」不變|
-
+<table>
+<thead>
+<tr>
+<th>例字</th>
+<th>中古漢語拼音</th>
+<th>日語音讀演化</th>
+<th>例外</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>甲</td>
+<td>krap</td>
+<td>かふ kapu &gt; kau &gt; kou こう</td>
+<td></td>
+</tr>
+<tr>
+<td>法</td>
+<td>pyap</td>
+<td>はふ papu &gt; hau &gt; hou ほう</td>
+<td></td>
+</tr>
+<tr>
+<td>十</td>
+<td>zjip</td>
+<td>じふ zipu &gt; jiu &gt; juu じゅう</td>
+<td>「十分（じっぷん）」不變</td>
+</tr>
+<tr>
+<td>蝶</td>
+<td>dep</td>
+<td>てふ tepu &gt; teu &gt; tyou ちょう</td>
+<td></td>
+</tr>
+<tr>
+<td>雜</td>
+<td>zap</td>
+<td>ざふ zapu &gt; zau &gt; zou ぞう</td>
+<td>「雜志（ざっし）」不變</td>
+</tr>
+</tbody>
+</table>
 </center>
 
 

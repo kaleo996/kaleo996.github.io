@@ -66,6 +66,8 @@
   
     
     
+      
+    
     
     
     
@@ -120,9 +122,75 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
     
     
   </nav>
@@ -1325,7 +1393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://ruoxining.github.io/notebook/Ling/Semantics/" class="md-nav__link">
+      <a href="https://ruoxining.github.io/notebook/docs/2-ling/semantics/" class="md-nav__link">
         
   
   
@@ -2493,7 +2561,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              3 min read
+                              4 min read
                             
                           </span>
                         </div>
@@ -2519,8 +2587,9 @@
 
 <h1 id="zju-cs">ZJU CS 大二上课程体验（和谐版）</h1>
 <p>本文标题为“体验”而非“经验”。文中有很多对课程的主观感受，其他同学的感受不一定和我一样。</p>
-<center>![课程表](class.webp)</center>
-
+<center>
+<p><img alt="课程表" src="../zjucs_2nd_autumn/class.webp" /></p>
+</center>
 <!-- more -->
 
 <p>这学期开始，CS 的培养方案里终于有除了离散数学之外的专业课了。虽然不少同学大学上了一年到现在连 Git 都不会用，但也有一点学 CS 的感觉了。</p>
@@ -2528,8 +2597,9 @@
 <h2 id="_1">零、暑假短学期</h2>
 <h3 id="1">课程综合实践1：超算集训</h3>
 <p><code>学分 2.5</code> <code>老师 陈建海</code></p>
-<center>![不到60.jpg](le60.webp)</center>
-
+<center>
+<p><img alt="不到60.jpg" src="../zjucs_2nd_autumn/le60.webp" /></p>
+</center>
 <p>很不幸，这门课是我的计算机系统启蒙，但它不该是任何人的 system 启蒙，它是一门进阶课。</p>
 <p>课程安排是：七天速通 408（指计算机考研专业课，含 DS、计组、OS、计网），用一个暑假做 lab，然后组队打 ICPC。这门课之于 ZJU 相当于 15-410 之于 CMU，在开课前教务处会发短信劝大家不要轻易选这门课，说这门课非常困难。但总有热情的大一同学（我）不信邪，想来超算锻炼一下自己。如果能坚持的话，在这门课里肯定能学到很多东西。我提前了解了很多高年级课程里的概念和思想，培养起阅读技术文档和动手做实验的好习惯，还学会了使用很多让我看起来更像 CS 人的工具（所谓 The Missing Semester of CS Education）。而且给分也是海底捞，出分之后我简直不敢相信我交上去跑得挺快但就是算不出正确结果的代码都能拿到分。</p>
 <p>但如果让我重新选择，我大一短学期还是会选《计算机系统概论》。一方面因为超算这门课太硬了，会导致我这种比较菜的同学大量提问，愧对助教。另一方面这门课 ddl 一再延期，最后占用了一整个暑假。美好的大一暑假，我还是想趁着数学还没忘掉，尽可能学 CS231n 和 CS224n。</p>
@@ -2589,13 +2659,15 @@
 <p>我们这学期有两种班，一种是非教改，一种是教改，区别主要在于实验。非教改班做的是老实验；而教改班引入了 CS144 的优质实验。我们这届期末考前出了个小乌龙，通知说期末要考 <strong>非</strong> 教改班的实验，给了教改班同学一点小小的计院震撼。</p>
 <p>由于非教改班的实验和时代脱节，计网实验室里的网线又有很多都被往届学生咬坏了（土人老师原话），加上土人老师相信“计算机不是学出来的，而是玩出来的”，所以他只是给我们提供了一些网络“玩具”，对实验要求很低，给了我们自己探索的空间。非常感激土人老师教给我们的 CS 智慧。</p>
 <p>査老师上的这一条是我写的⬇</p>
-<center>![郑扣根査老师](zkg.webp)</center>
-
+<center>
+<p><img alt="郑扣根査老师" src="../zjucs_2nd_autumn/zkg.webp" /></p>
+</center>
 <p>我们下一届开始应该都是教改班了，祝大家好运，并且都能学到网络技术。</p>
 <h3 id="toc">计算理论（ToC）</h3>
 <p><code>学分 2.0</code> <code>老师 杨莹春</code></p>
-<center>![衔尾蛇](snake.webp)</center>
-
+<center>
+<p><img alt="衔尾蛇" src="../zjucs_2nd_autumn/snake.webp" /></p>
+</center>
 <p>大家已经学了两年的计算机，该回头来思考一下什么是“计算”了！这门课的内容和《哥德尔、艾舍尔、巴赫——集异璧之大成》很像，讲的是理论计算机（图灵机之类的）和计算机的理论能力极限，是一门非常浪漫的数学课。</p>
 <p>现在毛宇尘老师回到母校来任教了，我校有专业对口的老师在讲授 ToC，以后的学习体验应该会很好。毛老师讲得又细致又深刻，上他的课有一种从上课思考到下课毫不间断的快乐和充实感。但选杨莹春老师班也有好处，她不像毛老师一样每年编写、批改、讲解新题，所以她的班 workload 很小。MIT 的计算理论公开课也很不错，他们的 slides 做得很好，适合复习的时候看。</p>
 <p>我们这届是第一届教改。这次期末考和教改前其实差别没那么大，只是难度稍微大一点，然后有一道非确定性图灵机相关的大题。我以为不会考，复习的时候直接把 NTM 相关知识放生了（但凡我预修过 ADS 我都不会以为 NTM 不重要！），这题没拿到分；再加上这门课是数学课，期末考占比高，所以我有幸在这门课拿到了大学生涯最低绩点，和大一在数学院修的《高等代数与解析几何》并列最低。</p>

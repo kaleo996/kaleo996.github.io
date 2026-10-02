@@ -66,6 +66,8 @@
   
     
     
+      
+    
     
     
     
@@ -120,9 +122,75 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
     
     
   </nav>
@@ -1328,7 +1396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://ruoxining.github.io/notebook/Ling/Semantics/" class="md-nav__link">
+      <a href="https://ruoxining.github.io/notebook/docs/2-ling/semantics/" class="md-nav__link">
         
   
   
@@ -2438,8 +2506,9 @@
 
 
 <h1 id="onset">Onset 聲母</h1>
-<center>![Onset](pic/onset.webp)</center>
-
+<center>
+<p><img alt="Onset" src="../pic/onset.webp" /></p>
+</center>
 <p>中古漢語的聲母按照發音部位來區分，分爲：唇、齒、舌、牙、喉音五類。這五類又可以繼續細分為「組」，每個組用起始的聲母命名。</p>
 <p>此外，它們還可以按照清濁和其他語音特徵分爲以下四類：</p>
 <ul>
@@ -2457,28 +2526,80 @@
 <h2 id="_1">唇音</h2>
 <p>唇音在切韻時代只有四個，並且擬音結果基本沒有爭議。注意「並」不可以寫成簡體字的「并」，因爲繁體字中這兩個字是不同的語素，而且「并（pjeng）」的聲母並不是並母。</p>
 <center>
-
-||全清|次清|全濁|次濁|
-|-|-|-|-|-|
-|聲母|幫|滂|並|明|
-|中古漢語拼音|p|ph|b|m|
-|代表字發音|pang|phang|bengx|mieng|
-|擬音|/ p /|/ pʰ /|/ b /|/ m /|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>次清</th>
+<th>全濁</th>
+<th>次濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聲母</td>
+<td>幫</td>
+<td>滂</td>
+<td>並</td>
+<td>明</td>
+</tr>
+<tr>
+<td>中古漢語拼音</td>
+<td>p</td>
+<td>ph</td>
+<td>b</td>
+<td>m</td>
+</tr>
+<tr>
+<td>代表字發音</td>
+<td>pang</td>
+<td>phang</td>
+<td>bengx</td>
+<td>mieng</td>
+</tr>
+<tr>
+<td>擬音</td>
+<td>/ p /</td>
+<td>/ pʰ /</td>
+<td>/ b /</td>
+<td>/ m /</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>並母字在普通話中全部清化，其中平聲字並入滂母，仄聲字并入幫母。</p>
 <p>後來的中古漢語的唇音演化出了雙唇音（重唇音）和唇齒音（輕唇音），分別是 / p /、/ pʰ /、/ b / 和 / f /、/ v / 這兩組音。在幫、滂、並、明母中各有一部分三等字變爲輕唇音。普通話中是中古漢語拼音為 ( p, ph, b ) + ( i, y ) + ( a, o, u ) 和 m + ( i, y ) + ( a, o ) 的字演變爲輕唇音，其餘保留重唇；明母字變輕唇音，先變爲 v 聲母，後來與其他 w 聲母的字混同。</p>
 <p>因此，切韻音系中聲母為唇音的字在普通話中的聲母如下：</p>
 <center>
-
-||幫|滂|並|明|
-|-|-|-|-|-|
-|重唇|b|p|平 p，仄 b|m|
-|輕唇|f|f|f|w|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>幫</th>
+<th>滂</th>
+<th>並</th>
+<th>明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>重唇</td>
+<td>b</td>
+<td>p</td>
+<td>平 p，仄 b</td>
+<td>m</td>
+</tr>
+<tr>
+<td>輕唇</td>
+<td>f</td>
+<td>f</td>
+<td>f</td>
+<td>w</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <details class="幫組例字">
 <summary>幫組例字</summary>
 <ul>
@@ -2491,35 +2612,131 @@
 <h2 id="_2">舌音</h2>
 <p>舌音有兩組，端組稱爲舌頭音，知組稱爲舌上音。來母傳統上稱作半舌音。知組的擬音有爭議，不確定是舌面音還是捲舌音。</p>
 <center>
-
-||全清|次清|全濁|次濁|次濁|
-|-|-|-|-|-|-|
-|聲母|端|透|定|泥|來|
-|中古漢語拼音|t|th|d|n|l|
-|擬音|/ t /|/ tʰ /|/ d /|/ n /|/ l /|
-
-||全清|次清|全濁|次濁|
-|-|-|-|-|-|
-|聲母|知|徹|澄|娘|
-|中古漢語拼音|tr|thr|dr|nr|
-|擬音1|/ ȶ /|/ ȶʰ /|/ ȡ /|/ ȵ /|
-|擬音2|/ ʈ /|/ ʈʰ /|/ ɖ /|/ ɳ /|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>次清</th>
+<th>全濁</th>
+<th>次濁</th>
+<th>次濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聲母</td>
+<td>端</td>
+<td>透</td>
+<td>定</td>
+<td>泥</td>
+<td>來</td>
+</tr>
+<tr>
+<td>中古漢語拼音</td>
+<td>t</td>
+<td>th</td>
+<td>d</td>
+<td>n</td>
+<td>l</td>
+</tr>
+<tr>
+<td>擬音</td>
+<td>/ t /</td>
+<td>/ tʰ /</td>
+<td>/ d /</td>
+<td>/ n /</td>
+<td>/ l /</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>次清</th>
+<th>全濁</th>
+<th>次濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聲母</td>
+<td>知</td>
+<td>徹</td>
+<td>澄</td>
+<td>娘</td>
+</tr>
+<tr>
+<td>中古漢語拼音</td>
+<td>tr</td>
+<td>thr</td>
+<td>dr</td>
+<td>nr</td>
+</tr>
+<tr>
+<td>擬音1</td>
+<td>/ ȶ /</td>
+<td>/ ȶʰ /</td>
+<td>/ ȡ /</td>
+<td>/ ȵ /</td>
+</tr>
+<tr>
+<td>擬音2</td>
+<td>/ ʈ /</td>
+<td>/ ʈʰ /</td>
+<td>/ ɖ /</td>
+<td>/ ɳ /</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>切韻音系中聲母為舌音的字在普通話中的聲母如下：</p>
 <center>
-
-|聲母|端|透|定|泥|來|
-|-|-|-|-|-|-|
-|普通話拼音|d|t|平 t，仄 d|n|l|
-
-|聲母|知|徹|澄|娘|
-|-|-|-|-|-|
-|普通話拼音|zh|ch|平 ch，仄 zh|n|
-
+<table>
+<thead>
+<tr>
+<th>聲母</th>
+<th>端</th>
+<th>透</th>
+<th>定</th>
+<th>泥</th>
+<th>來</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通話拼音</td>
+<td>d</td>
+<td>t</td>
+<td>平 t，仄 d</td>
+<td>n</td>
+<td>l</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>聲母</th>
+<th>知</th>
+<th>徹</th>
+<th>澄</th>
+<th>娘</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通話拼音</td>
+<td>zh</td>
+<td>ch</td>
+<td>平 ch，仄 zh</td>
+<td>n</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>語音的歷時音變不完全是規則的，例如以下舌音字從中古音變爲普通話：</p>
 <ul>
 <li>鳥 teux → diǎo (niǎo，大概是爲了避諱)</li>
@@ -2548,33 +2765,85 @@
 <h2 id="_3">喉牙音</h2>
 <p>牙音理應很普通，但普通話裏 [ ŋ ] 音素不出現在音節首，導致疑母字在普通話中大多演變爲零聲母。所以牙音需要和正常的零声母来源喉音一起講。</p>
 <center>
-
-||全清|次清|全濁|次濁|
-|-|-|-|-|-|
-|聲母|見|溪|群|疑|
-|中古漢語拼音|k|kh|g|ng|
-|擬音|/ k /|/ kʰ /|/ g /|/ ŋ /|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>次清</th>
+<th>全濁</th>
+<th>次濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聲母</td>
+<td>見</td>
+<td>溪</td>
+<td>群</td>
+<td>疑</td>
+</tr>
+<tr>
+<td>中古漢語拼音</td>
+<td>k</td>
+<td>kh</td>
+<td>g</td>
+<td>ng</td>
+</tr>
+<tr>
+<td>擬音</td>
+<td>/ k /</td>
+<td>/ kʰ /</td>
+<td>/ g /</td>
+<td>/ ŋ /</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>喉音在聲母表中的排佈比較亂。舊時不區分云母和以母，合稱「喻母」，後來才分化。它們都只能接三等韻，但由於在分化前分別屬於喻母三等、喻母四等字，所以也分別被稱作「喻三」和「喻四」。它們的擬音不太確定，僅作參考。</p>
 <p>曉、匣母的擬音也不太確定，有舌根音和（語音學意義上的）喉音兩種擬法。</p>
 <center>
-
-||全清|全清|全濁|次濁|
-|-|-|-|-|-|
-|聲母|影|曉|匣|云（大陸人注意不是「雲」）-以|
-|中古漢語拼音|q|h|gh|0（不寫出來）- j|
-|擬音|/ ʔ /|/ x, h /|/ ɣ, ɦ /|/ ɦi / - / j /|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>全清</th>
+<th>全濁</th>
+<th>次濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聲母</td>
+<td>影</td>
+<td>曉</td>
+<td>匣</td>
+<td>云（大陸人注意不是「雲」）-以</td>
+</tr>
+<tr>
+<td>中古漢語拼音</td>
+<td>q</td>
+<td>h</td>
+<td>gh</td>
+<td>0（不寫出來）- j</td>
+</tr>
+<tr>
+<td>擬音</td>
+<td>/ ʔ /</td>
+<td>/ x, h /</td>
+<td>/ ɣ, ɦ /</td>
+<td>/ ɦi / - / j /</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>影、疑、云、以四個聲母在普通話裏大都變成了零聲母，其中少量疑母字聲母還變爲 n，云、以母只演變為 y、w 兩種零聲母。</p>
 <details class="info">
 <summary>普通話零聲母</summary>
 <p>普通話拼音以 a、o、e、y、w 開頭的字可以認爲沒有聲母，或者稱有零聲母。其中 a、o、e 稱為開口呼，w 稱爲合口呼，y 的兩個發音 /j/ 和 /ɥ/ 分別稱爲齊齒呼和撮口呼。
 包括普通話在内的漢語的韻母都分爲四呼，根據介音舌位前後和是否圓唇，分類為如下表：
-<center></p>
+<center markdown="1"></p>
 <table>
 <thead>
 <tr>
@@ -2601,14 +2870,37 @@
 </details>
 <p>有時把見、溪、群、曉、匣合稱為見組，它們的歷時音變是平行的，都和韻母的洪細有關。見組字在普通話中的聲母演化情況如下：</p>
 <center>
-
-||見|溪|群|曉|匣|
-|-|-|-|-|-|-|
-|洪|g|k|平 k，仄 g|h|h|
-|細|j|q|平 q，仄 j|x|x|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>見</th>
+<th>溪</th>
+<th>群</th>
+<th>曉</th>
+<th>匣</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>洪</td>
+<td>g</td>
+<td>k</td>
+<td>平 k，仄 g</td>
+<td>h</td>
+<td>h</td>
+</tr>
+<tr>
+<td>細</td>
+<td>j</td>
+<td>q</td>
+<td>平 q，仄 j</td>
+<td>x</td>
+<td>x</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <details class="見組例字">
 <summary>見組例字</summary>
 <ul>
@@ -2631,56 +2923,182 @@
 <h2 id="_4">齒音</h2>
 <p>在唐代的三十六字母裏分爲齒頭音、正齒音、半齒音。後來研究發現正齒音還應該分爲兩類：一類在韻圖二等，也就是莊組；另一類在韻圖三等，也就是章組。以下是這些聲母與其中古漢語拼音：</p>
 <center>
-
-||全清|次清|全濁|全清|全濁|
-|-|-|-|-|-|-|
-|齒頭音|精 c / ts /|清 ch / tsʰ /|從 z / dz /|心 s / s /|邪 zs / z /|
-|正齒音|照|穿|床|審|禪|
-|莊組|莊 cr / tʂ, tʃ /|初 chr / tʂʰ, tʃʰ /|崇 zr / dʐ, dʒ /|生 sr / ʂ, ʃ /|俟 zsr / ʐ, ʒ /|
-|章組|章 cj / tɕ /|昌 chj / tɕʰ /|船 zsj / dʑ, ʑ /|書 sj / ɕ /|常 zj / ʑ, dʑ /|
-
-||次濁|
-|-|-|
-|半齒音|日 nj / ȵʑ, ȵ /|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>次清</th>
+<th>全濁</th>
+<th>全清</th>
+<th>全濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>齒頭音</td>
+<td>精 c / ts /</td>
+<td>清 ch / tsʰ /</td>
+<td>從 z / dz /</td>
+<td>心 s / s /</td>
+<td>邪 zs / z /</td>
+</tr>
+<tr>
+<td>正齒音</td>
+<td>照</td>
+<td>穿</td>
+<td>床</td>
+<td>審</td>
+<td>禪</td>
+</tr>
+<tr>
+<td>莊組</td>
+<td>莊 cr / tʂ, tʃ /</td>
+<td>初 chr / tʂʰ, tʃʰ /</td>
+<td>崇 zr / dʐ, dʒ /</td>
+<td>生 sr / ʂ, ʃ /</td>
+<td>俟 zsr / ʐ, ʒ /</td>
+</tr>
+<tr>
+<td>章組</td>
+<td>章 cj / tɕ /</td>
+<td>昌 chj / tɕʰ /</td>
+<td>船 zsj / dʑ, ʑ /</td>
+<td>書 sj / ɕ /</td>
+<td>常 zj / ʑ, dʑ /</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>次濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>半齒音</td>
+<td>日 nj / ȵʑ, ȵ /</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>精、莊、章組字在普通話中的發音規則變化，其中精組因韻母的洪細而不同，如下表。日母絕大多數變爲 r，只有止攝的支 ie、脂 ii、之 i 開口韻（即 nje、njii、nji）在普通話中變爲 er。</p>
 <center>
-
-||精|清|從|心|邪|
-|-|-|-|-|-|-|
-|洪|z|c|平 c，仄 z|s|s, c|
-|細|j|q|平 q，仄 j|x|x, q|
-
-||全清|次清|全濁|全清|全濁|
-|-|-|-|-|-|-|
-|莊組|莊：zh、z|初：ch、c|崇：平 ch、c，仄 zh、sh|生：sh、s|俟：平 ch，仄 s|
-|章組|章：zh|昌：ch|常：平 ch、sh，仄 sh|書：sh|船：平 ch、sh，仄 sh|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>精</th>
+<th>清</th>
+<th>從</th>
+<th>心</th>
+<th>邪</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>洪</td>
+<td>z</td>
+<td>c</td>
+<td>平 c，仄 z</td>
+<td>s</td>
+<td>s, c</td>
+</tr>
+<tr>
+<td>細</td>
+<td>j</td>
+<td>q</td>
+<td>平 q，仄 j</td>
+<td>x</td>
+<td>x, q</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>全清</th>
+<th>次清</th>
+<th>全濁</th>
+<th>全清</th>
+<th>全濁</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>莊組</td>
+<td>莊：zh、z</td>
+<td>初：ch、c</td>
+<td>崇：平 ch、c，仄 zh、sh</td>
+<td>生：sh、s</td>
+<td>俟：平 ch，仄 s</td>
+</tr>
+<tr>
+<td>章組</td>
+<td>章：zh</td>
+<td>昌：ch</td>
+<td>常：平 ch、sh，仄 sh</td>
+<td>書：sh</td>
+<td>船：平 ch、sh，仄 sh</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>普通話裏 j、q、x 三聲母有兩組來源，分別稱爲「尖音」和「團音」，它們分別來自見組和精組，對應的中古漢語聲母如下表。這兩組聲母混同的歷時音變稱爲「尖團合流」。</p>
 <center>
-
-||j|q|x|
-|-|-|-|-|
-|團音|見 群|溪 群|曉 匣|
-|尖音|精 從|清 從 邪|心 邪|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>j</th>
+<th>q</th>
+<th>x</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>團音</td>
+<td>見 群</td>
+<td>溪 群</td>
+<td>曉 匣</td>
+</tr>
+<tr>
+<td>尖音</td>
+<td>精 從</td>
+<td>清 從 邪</td>
+<td>心 邪</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <p>尖音和團音只有后接細音（注意不含舌尖元音）的時候才合流為 j、q、x，其他情況下發音是不變的，例如北京話裏「見」和「精」的聲母都是 j，而「國」和「子」由於介音是洪音，所以聲母沒變為 j。這是因爲細音的舌位更容易腭化。</p>
 <p>一些比較存古的河北話還區分尖團音，而北京話已經發生了尖團合流。但是在翻譯時選字，還是需要區分尖團音的。</p>
 <center>
-
-||團音|尖音|
-|-|-|-|
-|希 hioi - 西 se|希特勒 Hitler、海因里希 Heinrich|馬來西亞 Malaysia、巴西 Brazil|
-|基 ki - 齊 ze|巴基斯坦 Pakistan、維基百科 Wikipedia|薩科齊 Sarkozy、馬特拉齊 Materazzi|
-
+<table>
+<thead>
+<tr>
+<th></th>
+<th>團音</th>
+<th>尖音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>希 hioi - 西 se</td>
+<td>希特勒 Hitler、海因里希 Heinrich</td>
+<td>馬來西亞 Malaysia、巴西 Brazil</td>
+</tr>
+<tr>
+<td>基 ki - 齊 ze</td>
+<td>巴基斯坦 Pakistan、維基百科 Wikipedia</td>
+<td>薩科齊 Sarkozy、馬特拉齊 Materazzi</td>
+</tr>
+</tbody>
+</table>
 </center>
-
 <details class="精組例字">
 <summary>精組例字</summary>
 <ul>
